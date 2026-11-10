@@ -12,7 +12,7 @@ $> cd vowels
 $> npm install
 ```
 
-We should begin adding our changes to the `src/App.jsx` component, and rendering other components (as needed) from within our `App` component's render logic. `App` is the top-level component for our React application. 
+We should begin adding our changes to the `src/App.jsx` component, and rendering other components (as needed) from within our `App` component's render logic. `App` is the top-level component for our React application.
 
 And to finally start our app:
 
@@ -23,6 +23,7 @@ $> npm run dev
 ## Release 1: Creating Components
 
 Your application should contain:
+
 - An input that allows the user to enter in a word
 - A button that allows the user to submit their entered word
 - An element that displays the entered word
@@ -33,6 +34,7 @@ You can keep everything in `App.jsx` for now. After the components lecture, come
 ## Release 2: Finding Vowels
 
 Can you add the following to your application:
+
 - Updated functionality to highlight all vowels in a displayed word, and show the vowel count for each word
 
 HINT: use CSS!
@@ -41,4 +43,5 @@ NOTE: `class` is a reserved keyword in JavaScript, so you'll have to use `classN
 ## Release 3: Word History
 
 Can you add the following to your application:
+
 - Updated functionality to keep track of all words entered in by the user (and displayed back to the user), with highlighting & counting the vowels as before for each word
